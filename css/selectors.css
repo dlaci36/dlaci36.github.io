@@ -1,0 +1,31 @@
+body{background-color:#f0f0f0}
+.login_div {
+    padding:15px;
+    border:solid 1px #c0c0c0;
+    box-shadow:0 0 2px;
+    display:inline-block;
+}
+.login_div input{
+    margin-bottom:7px;
+    display:block
+}
+
+
+.login_div input[type="email"] {
+    background-color:aliceblue;
+    border:solid 1px;
+}
+.login_div input[type="password"] {
+    background-color:blanchedalmond;
+    border:solid 1px;
+}
+.login_div button:hover {
+    box-shadow: 2px 2px 3px #c0c0c0;
+    cursor: pointer;
+}
+.login_div input:focus {
+    box-shadow: 2px 2px 3px #c0c0c0;
+}
+ul li:nth-child(2) {
+    
+}

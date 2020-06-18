@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendelés</title>
+    <link rel="stylesheet" href="/css/form-style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Személyes adatok</legend>
+
+                <div>
+                <label for="name">Név: *</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                <label for="email">E-mail *</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                <label for="address">Cím: *</label>
+                    <input id="address" name="address" type="text" required>
+                </div>
+                <div>
+                <label for="comment">Megjegyzés:</label>
+                    <p id="comment_p">
+                        <textarea id="comment" name="comment" rows=5></textarea>*-gal jelzettek kitöltése kötelező
+                    </p>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Plusz extrák</legend>
+                <div>
+                    <label for="nothing">nem kérek</label>
+                    <input checked id="nothing" name="extra" type="radio" value="0">
+                </div>
+                <div>
+                    <label for="sajt">sajt</label>
+                    <input id="sajt" name="extra" type="radio" value="300">
+                </div>
+                <div>
+                    <label for="oliva">olivabogyó</label>
+                    <input id="oliva" name="extra" type="radio" value="600">
+                </div>
+                <div>
+                    <label for="szosz">Szósz:</label>
+                    <select name="szosz" id="szosz">
+                        <option value="0" selected>szósz 1</option>
+                        <option value="100" >szósz 2</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div>
+                <label for="mennyiseg">db:</label>
+                <input for="mennyiseg" name="mennyiseg" type="number" min="1" max="5">
+            </div>
+            <div>
+                <input type="button" value="Rendelés leadása" Ár:>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

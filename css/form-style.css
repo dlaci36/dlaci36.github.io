@@ -1,0 +1,22 @@
+html {
+    background-color: lightgray;
+}
+.container {
+    padding:15px;
+    border:solid 1px #c0c0c0;
+    box-shadow:0 0 2px;
+    display:inline-block;
+}
+.container input{
+    margin-bottom:7px;
+    /* width: 250px; */
+    display:block
+}
+#comment_p {
+    margin-top: 2px;
+    width: 165px;
+}
+.container input[required]:focus {
+    box-shadow: 2px 2px 3px #807d86;
+    background-color: rgb(177, 215, 230);
+}

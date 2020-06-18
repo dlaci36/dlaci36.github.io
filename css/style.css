@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "oswald";
+    src: url(fonts/Oswald/Oswald-BoldItalic.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "oswald-light";
+    src: url(fonts/Oswald/Oswald-Light.ttf);
+    font-weight: 200;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+html {
+}
+
+h1 
+{font-family: 'roboto';  
+      color:blue;
+      text-align: center;
+    
+}
+#bio-header {
+    font-family: "roboto" sans-serif;
+    color: brown;
+}
+
+#skills-header {
+    color: yellow;
+}
+#kep {
+    position: fixed;
+    top: 15%;
+      
+}
+.content {
+    font-family: "poppins";
+    color:gray;
+    font-size: 24px;
+    text-align: justify;
+    font-weight: normal;
+    margin: 10px 20px 0px;
+    max-width: 75%;
+}
+.bold {
+    font-weight: bold;
+}
+.img-div{
+    background-color: lightblue;
+    border: dotted;
+}
+.img-div2{
+    background-color: red;
+}
+img {
+    width: 15%;
+    margin: 2%;
+    box-shadow: 3px 3px 7px black;
+    
+}
