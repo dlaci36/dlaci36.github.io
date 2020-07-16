@@ -52,4 +52,19 @@ let alertCloseEventhandlerFunction = function(ev) {
 };
 for (let i = 0; i < alertCloseButtons.length; i++) {
     alertCloseButtons[i].addEventListener("click", alertCloseEventhandlerFunction);
-}
+};
+
+let toppings = [
+    "Szalonna",
+    "Hagyma",
+    "Extra Sajt"
+];
+let toppingSelect = document.querySelector("#topInput");
+let index = 0;
+while (index < toppings.length) {
+    let option = document.createElement("option");
+    option.value = index;
+    option.innerHTML = toppings[index];
+    toppingSelect.appendChild(option);
+    index++;
+};
